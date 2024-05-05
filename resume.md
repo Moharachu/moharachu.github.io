@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Resume
+title: СV
 permalink: /resume/
 description: >
   Hi, I'm DaeIn Lee.

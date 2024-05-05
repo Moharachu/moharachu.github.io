@@ -213,10 +213,10 @@ comments:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo:                "LazyRen/LazyRen.github.io"
-  repo-id:             "MDEwOlJlcG9zaXRvcnkyNzU4Mjk1NTc="
+  repo:                "Moharachu/moharachu.github.io"
+  repo-id:             "R_kgDOL3SabA"
   category:            "Comments"
-  category-id:         "DIC_kwDOEHDTNc4B-MIg"
+  category-id:         "DIC_kwDOL3SabM4CfJfC"
   mapping:             "pathname"
   reaction-enabled:    "1"
   data-emit-metadata:  "0"
