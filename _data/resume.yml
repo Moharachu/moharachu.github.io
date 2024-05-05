@@ -1,27 +1,23 @@
 basics:
-  name: "Lee, DaeIn"
-  label: "Software Engineer"
+  name: "Stepan Zaletskii"
+  label: "Technical Artist"
   picture: /assets/img/profile.jpg
-  email: "daein0lee@gmail.com"
-  phone: "(+82) 10-6273-3127"
-  website: "https://lazyren.github.io/"
+  email: "mail@moharachu.com"
+  phone: "(+46) 73-713-4763"
+  website: "https://moharachu.github.io/"
   summary: >
-    Hello, I'm Lee, DaeIn from SAP Labs Korea.<br>
-    I'm familiar with C++, Python and a bit of Rust.<br>
-    I'd like to describe myself as a fast-learner & early-adopter.<br>
-  # location:
-  #   address: "2712 Broadway St"
-  #   postalCode: "CA 94115"
-  #   city: "San Francisco"
-  #   countryCode: "US"
-  #   region: "California"
+    Hello, I'm Stepan Zaletskii from DICE EA.<br>
+    I'm familiar with Unreal Engine 5, Python and a bit of C++.<br>
+    I'd like to describe myself as a fast-learner & problem solver.<br>
+
   profiles:
     - network: "Github"
-      username: "LazyRen"
-      url: "https://github.com/LazyRen"
+      username: "Moharachu"
+      url: "https://github.com/moharachu"
     - network: "LinkedIn"
-      username: "Lee, DaeIn"
-      url: "https://www.linkedin.com/in/daein-lee-3b6ba9139/"
+      username: "Stepan Zaletskii"
+      url: "https://www.linkedin.com/in/moharachu/"
+      
 work:
   - company: "SAP Labs Korea"
     position: "HANA Core Developer"

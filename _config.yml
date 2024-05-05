@@ -27,12 +27,11 @@ timezone:              Europe/Stockholm
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Work Hard to be Lazy.
-  SW Engineer at Samsung Research.
+  Technical Artist
 
 # A shorter description for the sidebar.
 tagline:               >
-  Work Hard to be Lazy.
+  Technical Artist
 
 # A list of keywords for your blog
 keywords:              ["Development", "C++", "Rust", "Jekyll"]
@@ -40,14 +39,14 @@ keywords:              ["Development", "C++", "Rust", "Jekyll"]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/seattle.png
+logo:                  https://media.licdn.com/dms/image/C5603AQEWx6FyCPRK1g/profile-displayphoto-shrink_800_800/0/1522591932766?e=1720656000&v=beta&t=bpYtGpLINpiSkA1F3hXJsZE29ahbd73LLI1uDpmh350
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
   name:                Stepan Zaletskii
   email:               mail@moharachu.com
-  picture:             /assets/img/seattle.png
+  picture:             https://media.licdn.com/dms/image/C5603AQEWx6FyCPRK1g/profile-displayphoto-shrink_800_800/0/1522591932766?e=1720656000&v=beta&t=bpYtGpLINpiSkA1F3hXJsZE29ahbd73LLI1uDpmh350
   social:
     linkedin:          moharachu
     github:            moharachu
@@ -200,11 +199,11 @@ mermaid:               true
 hydejack:
   # Configure the order of complementary content on blog posts
   # post_addons:         [about, newsletter, related, random, comments]
-  post_addons:         [about, comments]
+  post_addons:         [comments]
 
   # Configure the order of complementary content on project pages
   # project_addons:      [about, newsletter, other, comments]
-  project_addons:      [about, other, comments]
+  project_addons:      [other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external:    true

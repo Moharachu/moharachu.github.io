@@ -5,3 +5,4 @@
 3. gem install bundler
 4. bundle install
 5. bundle exec jekyll serve --livereload
+6. CTRL+SHIFT+I - Disable Cache

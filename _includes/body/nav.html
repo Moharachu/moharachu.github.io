@@ -8,12 +8,12 @@
         {% assign subnodes = tag_nodes | where_exp: "item", "item.category == node.slug" %}
         {% assign count = count | plus: 1 %}
         <li>
-          <a  href="{{ node.url | relative_url }}" class="sidebar-nav-item external">{{ node.title }}</a>
+          <a  href="{{ node.url | relative_url }}" class="sidebar-nav-item">{{ node.title }}</a>
         </li>
       {% endif %}
     {% else %}
       <li>
-        <a href="{{ node.redirect_to }}" class="sidebar-nav-item external">{{ node.title }}</a>
+        <a href="{{ node.redirect_to }}" class="sidebar-nav-item">{{ node.title }}</a>
       </li>
     {% endunless %}
   {% endfor %}

@@ -1,9 +1,9 @@
 ---
 layout: resume
-title: СV
+title: Resume
 permalink: /resume/
 description: >
-  Hi, I'm DaeIn Lee.
+  Hi, I'm Stepan Zaletskii.
 hide_description: true
 sidebar: true
 order: 5
@@ -15,7 +15,6 @@ left_column:
  - references
 right_column:
  - awards
- - volunteer
  - languages
  - skills
  - interests

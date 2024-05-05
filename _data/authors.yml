@@ -5,17 +5,9 @@ author1:
   name:              Stepan Zaletskii
   email:             mail@moharachu.com
 
-  # Used at the bottom of each page and at the top of the `about` layout
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    HANA Core Developer at [SAP Labs Korea](https://www.sap.com/korea/about/labs-korea.html).<br>
-    Please check my [Resume][resume] to find out more about me!<br>
-
-    [resume]: /resume/
-
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/seattle.png
+    path:            https://media.licdn.com/dms/image/C5603AQEWx6FyCPRK1g/profile-displayphoto-shrink_800_800/0/1522591932766?e=1720656000&v=beta&t=bpYtGpLINpiSkA1F3hXJsZE29ahbd73LLI1uDpmh350
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:
@@ -63,18 +55,3 @@ author1:
     # paypal:          <username>
     # download:        <url>
     # keybase:         <username>
-
-# Another author (optional)
-# author2:
-#   name:              <firtname> <lastname>
-#   email:             <mail@domain.tld>
-#   about:             |
-#     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-#     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-#     Open `_data/authors.yml` to edit this text.
-
-#   picture:           https://placehold.it/128x128
-#   twitter:           <username>
-#   github:            <username>
