@@ -1,14 +1,13 @@
 basics:
   name: "Stepan Zaletskii"
   label: "Technical Artist"
-  picture: /assets/img/profile.jpg
   email: "mail@moharachu.com"
   phone: "(+46) 73-713-4763"
   website: "https://moharachu.github.io/"
   summary: >
-    Hello, I'm Stepan Zaletskii from DICE EA.<br>
-    I'm familiar with Unreal Engine 5, Python and a bit of C++.<br>
-    I'd like to describe myself as a fast-learner & problem solver.<br>
+      Passionate and innovative Technical Artist with a deep-seated commitment to crafting gameplay experiences.<br>
+      Proficient in Unreal Engine, particularly skilled at utilizing scripting to infuse vitality into game worlds.<br>
+      Committed to pushing the limits of interactive storytelling and cultivating captivating player engagements.<br>
 
   profiles:
     - network: "Github"
@@ -17,207 +16,147 @@ basics:
     - network: "LinkedIn"
       username: "Stepan Zaletskii"
       url: "https://www.linkedin.com/in/moharachu/"
+    - network: "Artstation"
+      username: "Moharachu"
+      url: "https://www.artstation.com/moharachu"
       
 work:
-  - company: "SAP Labs Korea"
-    position: "HANA Core Developer"
-    website: https://www.sap.com/korea/about/labs-korea.html"
-    startDate: "2021-01-11"
+
+  - company: "Starbreeze Studios"
+    position: "Senior Technical Artist"
+    website: "https://www.starbreeze.com/"
+    startDate: "2022-05-13"
     endDate: ""
     summary: >
-      SAP Labs Korea, a cornerstone of SAP HANA, now aims to bring the in-memory technology to the cloud where it acts as a single gateway to data of any size to harness the power of data wherever it resides and ensure the platform for intelligent enterprise.
+      Starbreeze Studios is a leading game development and publishing company, synonymous with innovation in the gaming industry. Payday 3, their flagship project, epitomizes their commitment to pushing boundaries and delivering immersive gaming experiences, set to redefine the landscape of cooperative heist games.
+    
     highlights:
-      - SQL on Files team developer (2023/06/01~)<br>
-        - Develop Delta table replication feature in HANA<br>
-          - Remote Subscription / FVT(Fabric Virtual Table) of Delta table<br>
-      - Transaction team developer (~2023/11/30)<br>
-        - Develop EBR(Epoch Based Reclamation) Skip List data structure used in HANA<br>
-        - Develop EBR SWMR(Single Writer Multiple Reader) Skip List data structure in Rust lang.<br>
-        - Fix Transaction concurrency issues/bugs in HANA<br>
-  - company: "Samsung Research"
-    position: "SW Engineer"
-    website: "https://research.samsung.com/"
-    startDate: "2020-02-03"
-    endDate: "2020-12-31"
+      - Spearheaded the implementation of gameplay mechanics and interactive elements in Payday 3 using Unreal Engine's Blueprint scripting system, collaborating closely with game designers to bring their visions to life.<br>
+      - Developed and maintained a library of reusable Blueprint assets and systems, accelerating the iteration process and promoting consistency throughout the project.<br>
+      - Conducted training sessions and workshops for artists and designers to foster a deeper understanding of Blueprint scripting techniques and empower them to iterate on gameplay features independently.<br>
+      - Implemented optimization strategies within Blueprint scripts to maintain high performance across various platforms and hardware configurations, collaborating with engineers to identify and address performance bottlenecks.<br>
+      - Provide technical support and troubleshooting assistance to resolve issues related to art assets, shaders, and visual effects.<br>
+      
+  - company: "Wargaming Kiyv"
+    position: "Senior Technical Artist"
+    website: "https://wargaming.com/"
+    startDate: "2020-04-05"
+    endDate: "2022-04-30"
     summary: >
-      Samsung Research is the advanced research and development (R&D) hub of Samsung Electronics.
+      Wargaming stands out as a renowned game development studio, recognized for its significant impact on the gaming industry. Their forthcoming undisclosed project underscores their commitment to innovation, introducing multiplayer experiences characterized by vast open-world settings and sophisticated destruction systems.
     highlights:
-      - Software Capacity Building T/F<br>
-        - Educate Software newcomers to understand the software development process and tools.<br>
-        - Lecture on Algorithm/Problem solving skills<br>
-  - company: "Samsung Research"
-    position: "Intern"
-    website: "https://research.samsung.com/"
-    startDate: "2019-06-24"
-    endDate: "2019-08-30"
-    summary:
+      - "Pioneered the implementation of environment replicated destruction mechanics in a multiplayer game environment, utilizing cutting-edge shaders for realistic visual effects and optimized performance.<br>"
+      - "Engineered and optimized Niagara particle systems to dynamically simulate destruction events across multiplayer sessions, ensuring consistent and engaging gameplay experiences.<br>"
+      - "Integrated Houdini for procedural content generation, facilitating the creation of destructible environments that seamlessly synchronize across networked multiplayer instances.<br>"
+      - "Implemented a crowded simulation system utilizing Houdini and Niagara, capable of accommodating up to 10,000 NPCs simultaneously while incorporating their interactions with the environment.<br>"
+      - "Utilized a customized physics engine to implement ground and airborne vehicle systems, fine-tuning parameters and behaviors to achieve realistic movement and interaction within the game environment, in accordance with project specifications.<br>"
+
+  - company: "Social Quantum"
+    position: "Lead Technical Artist"
+    website: "https://socialquantum.com/"
+    startDate: "2019-03-04"
+    endDate: "2020-03-09"
+    summary: >
+      As a mobile game development studio, Social Quantum has made contributions to the industry. Their project, Lost Future, a mobile open-world survival game, epitomizes their commitment to innovation, offering players multiplayer experiences set in expansive environments.
     highlights:
-      - "Software engineering internship at Smart Device team."
-      - "8 week internship to develop smart switch circuit PMU firmware with the purpose of increasing power efficiency."
-  - company: "LG CNS"
-    position: "Intern"
-    website: "https://www.lgcns.co.kr/"
-    startDate: "2019-01-03"
-    endDate: "2019-02-28"
-    summary:
+      - "Developed and implemented mobile shaders for characters and environments, optimizing for performance and visual fidelity on various mobile platforms."
+      - "Created custom tools to automate repetitive tasks, such as batch processing of assets or material setup."
+      - "Crafted and executed strategies aimed at optimizing character and environment assets, resulting in decreased memory footprint and enhanced rendering performance."
+      - "Mentored junior and mid-level Technical Artists, providing guidance on best practices in shader development, mobile optimization, and tool development."
+
+  - company: "Mundfish"
+    position: "Contract Senior Technical Artist"
+    website: "https://mundfish.com/"
+    startDate: "2018-02-08"
+    endDate: "2019-03-02"
+    summary: >      
+      Mundfish, a notable game development studio, achieved remarkable success with their debut title, Atomic Heart, a captivating PC first-person shooter. Reflecting their innovative approach, the game immerses players in a gripping open-world experience.
     highlights:
-      - "Software Engineering Internship at Development Platform team."
-      - "6 week internship to develop new Enterprise Application Platform pages."
-      - "Gained better understanding of overall web development."
-  - company: "Fortify Inc."
-    position: "Intern"
-    website: "https://fortify.pro/"
-    startDate: "2018-07-08"
-    endDate: "2018-08-24"
-    summary:
+      - "Conducted prototyping of game logic and mechanics to iterate and refine gameplay features."
+      - "Designed and implemented engine tools to streamline content creation processes and improve workflow efficiency."
+      - "Contributed to the design and development of the game's open world environment, focusing on visual storytelling and immersive player experiences."
+
+  - company: "Saber Interactive"
+    position: "Contract Senior Technical Artist"
+    website: "https://saber.games/"
+    startDate: "2018-01-05"
+    endDate: "2019-02-02"
+    summary: >      
+      Saber Interactive, a prominent game development studio, is recognized for its diverse portfolio and expertise in porting games for Nintendo Switch.
     highlights:
-      - "Building responsive homepage for 'fortify.pro'."
-      - "Backend/frontend development and service usage analysis using mongoDB for Gaia Landscape Inc."
-volunteer:
-  - organization: "Hanyang Mentoring Program"
-    position: "Mentor"
-    website: ""
-    startDate: "2018-03-02"
-    endDate: "2018-12-21"
-    summary: "Mentoring for the major courses of CSE with juniors"
+      - "Configured in-game lighting systems to achieve optimal visual fidelity and performance for Nintendo Switch."
+      - "Explored thorough performance analysis and profiling to pinpoint and address performance bottlenecks, resulting in notable enhancements to frame rates and overall stability."
+
+  - company: "Sperasoft"
+    position: "Technical Artist"
+    website: "https://sperasoft.com/"
+    startDate: "2016-02-11"
+    endDate: "2018-01-04"
+    summary: >      
+      Sperasoft, affiliated with Keyword Studios, specializes in outsourcing and co-development, contributing significantly to the gaming industry.
     highlights:
-      - "Data Structure; Teaching & helping sophomores on the data structure course."
-      - "Database Systems; Teaching & helping sophomores on the database system course."
-      - "Awarded 'Hanyang Best Mentor' for mentoring Database Systems course."
-  - organization: "Hanmille, Foreigner Mentoring Program"
-    position: "Mentor"
-    website: ""
-    startDate: "2014-03-02"
-    endDate: "2014-12-18"
-    summary: "Mentoring & helping foreign students to easily adjust to Korea."
-    highlights:
+      - "Implemented optimization strategies to enhance performance across various platforms, including PC, and consoles"
+      - "Led environment and texture creation efforts, utilizing advanced techniques to achieve realistic visuals while maintaining optimal performance."
+      - "Developed procedural generation techniques to streamline asset creation processes and incorporate dynamic elements into game environments, enhancing efficiency and interactivity."
+
 education:
-  - institution: "Hanyang University, Seoul"
+  - institution: "The Siberian State Automobile and Highway University"
     area: "Computer Science & Engineering"
     studyType: "Bachelor"
-    startDate: "2014-03-02"
-    endDate: "2020-02-21"
-    gpa: "4.0 (major 4.28) / 4.5"
-    courses:
-      - "Concurrent Programming"
-      - "Data Science"
-      - "Operating Systems"
-      - "Computer Architecture"
-      - "Database Systems"
-      - "System Programming"
-  - certificate: "Engineer Information Processing (정보처리기사)"
-    date: "2019-11-22"
-projects:
-  - title: "Bw-Tree Performance Boosting"
-    startDate: "2018-08-01"
-    endDate: "2019-10-31"
-    summary: "Evaluating cache / multi thread Performance of <a href='https://github.com/wangziqi2013/BwTree'>Open Bw-Tree</a> to find bottleneck and improvement performance."
-    url: "https://lazyren.github.io/tag-bwtree/"
-    highlights:
-      - "Implementing update function based on the <a href='https://hyeontaek.com/papers/openbwtree-sigmod2018.pdf'>page</a>."
-      - "Make update function atomic & reduce call of traverse function."
-      - "Design TaS implemented Bw-Tree instead of CaS to reduce the overhead of failed CaS operations."
-  - title: "Wait-free Snapshot with Epoch Based Garbage Collection"
-    startDate: "2019-10-01"
-    endDate: "2019-10-31"
-    summary: "Concurrent Programming Course"
-    url: "https://github.com/LazyRen/2019-Concurrent-Programming/tree/master/project3"
-    highlights:
-      - "Implementing Wait-free Snapshot based on the textbook 'The Art of Multiprocessor Programming'"
-      - "Concurrent update & scan function implemented"
-      - "Implement epoch based garbage collection to prevent memory leak & concurrent GC."
-  - title: "Enhanced xv6"
-    startDate: "2018-03-02"
-    endDate: "2018-06-22"
-    summary: "Operating System Course"
-    url: "https://github.com/LazyRen/2018-Operating-Systems"
-    highlights:
-      - "Implement MLFQ & Stride scheduling instead of round robin scheduling."
-      - "Implement Light Weight Process that can be used with most of POSIX-thread functions."
-      - "Implement 'triple indirect block addressing' to support large file upto 1030 MB original limitation was 70 KB."
+    startDate: "2006-09-01"
+    endDate: "2011-06-28"
+    gpa: "4.2 / 5.0"
+
 awards:
-  - title: "Hanyang Academic Achievement Award"
-    awarder: "Hanyang Univ."
+  - title: "The Journey - 3D Environment Art Challenge"
+    awarder: "ArtStation"
     highlights:
-      - "2018, 2nd semester"
-      - "2017, 2nd semester(Highest Honor)"
-  - title: "Hanyang Brain Scholarship"
-    awarder: "Hanyang Univ."
-    highlights:
-      - "2019, 1st semester"
-      - "2018, 1st/2nd semester"
-      - "2017, 2nd semester"
-  - title: "Win 2nd place in advanced group"
-    date: "2018-11-17"
-    awarder: "Hanyang Collegiate Programming Contest 2018"
-    summary: ""
-  - title: "Win 4th place in advanced group"
-    date: "2017-12-09"
-    awarder: "Hanyang Collegiate Programming Contest 2017"
-    summary: ""
-  - title: "Advanced to final competition"
-    date: "2017-09-09"
-    awarder: "Kakao Code Festival 2017"
-    summary: ""
-# publications:
-#   - name: "Video compression for 3d media"
-#     publisher: "Hooli"
-#     releaseDate: "2014-10-01"
-#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
+      - "2016, Honorable Mention"
+
 skills:
-  - name: "Database Development"
-    level: "Master"
+  - name: "Unreal Engine 5"
     keywords:
-      - "HANA"
-      - "Concurrent Programming"
-      - "SQL on Files"
-  - name: "C++"
-    level: "Master"
-    keywords:
-      - "Modern C++(17/20)"
-      - "System Programming"
-  - name: "Rust"
-    level: "Intermediate"
-    keywords:
-      - "Concurrent Programming"
-      - "System Programming"
+      - "Blueprints"
+      - "Plugins Development"
+      - "Shader Development"
+      - "Niagara"
+      - "Performance and Profiling"
+
   - name: "Python"
-    level: "Intermediate"
     keywords:
-      - "PyUnit Testing"
-  - name: "Algorithm"
-    level: "Intermediate"
-  - name: "Web Development"
-    level: "Junior"
+      - "PyQT"
+      - "Maya API"
+      - "Pipeline Development"
+
+  - name: "C++"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Sociability"
-    level: "Master"
+      - "Unreal Engine API"
+      - "System Programming"
+  
+  - name: "Maya"
     keywords:
-      - "Leadership"
-      - "Affable"
+      - "Modeling"
+      - "Rigging"
+      - "Plugins Development"
+  
+  - name: "Substance"
+    keywords:
+      - "Procedural Texturing"
+      - "Plugins Development"
+  
+  - name: "Houdini"
+    keywords:
+      - "Procedural Modeling"
+      - "Vex"
+      - "SideFX Labs"
+
+  - name: "Perforce"
+    keywords:
+      - "Workflow"
+      - "CI/CD"
+
 languages:
-  - language: "Korean"
-    fluency: "Native speaker"
   - language: "English"
     fluency: "Fluent"
-interests:
-  - name: "Activity"
-    keywords:
-      - "Tennis"
-      - "Snowboarding"
-      - "Cycling"
-  - name: "Gaming"
-    keywords:
-      - "Board Games"
-      - "<a href='https://steamcommunity.com/id/lazyren'>Steam</a>"
-# references:
-#   - name: "Erlich Bachman"
-#     reference: >
-#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#       Company proved that he will be a valuable addition to any company.
-
-# <https://jsonresume.org/>
+  - language: "Russian"
+    fluency: "Native speaker"

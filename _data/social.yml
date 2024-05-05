@@ -206,3 +206,7 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+artstation:
+  name: ArtStation
+  icon: icon-box-add
+  prepend: "https://www.artstation.com/user"
