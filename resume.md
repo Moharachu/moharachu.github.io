@@ -2,8 +2,6 @@
 layout: resume
 title: Resume
 permalink: /resume/
-description: >
-  Hi, I'm Stepan Zaletskii.
 hide_description: true
 sidebar: true
 order: 5
