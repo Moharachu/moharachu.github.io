@@ -71,8 +71,8 @@ excerpt_separator:     <!--more-->
 accent_image:
   background:          radial-gradient(circle, rgb(90 191 131 / 35%) 0%, rgb(42 45 47) 100%)
   overlay:             false
-  color:               rgb(42 45 47)
-accent_color:          rgb(90, 191, 131)
+  color:               rgb(42,45,47)
+accent_color:          rgb(90,191,131)
 
 
 # This is used for the `theme-color` meta tag,
