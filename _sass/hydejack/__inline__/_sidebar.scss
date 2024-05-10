@@ -133,6 +133,10 @@ hy-drawer {
     margin-bottom: 1.5rem
   }
 
+  span.hidden {
+    display: none
+  }
+
   > a.sidebar-title {
     text-decoration: none;
     > h2 {

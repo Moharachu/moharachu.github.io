@@ -1,12 +1,4 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-68290006-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-68290006-3');
-</script>
 
 <script>{% include scripts/load-js.min.js %}{% include scripts/loadCSS.min.js %}{% include scripts/cssrelpreload.min.js %}!function(w) {
   w._baseURL = '{{    "/"           | relative_url }}';
@@ -23,6 +15,38 @@
     INDEX_KEY: 'index--{{ site.time | date_to_xmlschema }}',
   };
 }(window);</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.cells.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", (event) => {
+    VANTA.CELLS({
+      el: ".sidebar-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x5abf83,
+      color2: 0x5abf83,
+    })
+  })
+</script>
+{% assign text = site.tagline | default:site.description %}
+{% if text %}
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      const sidebarDescription = "{{ text | markdownify | replace:'<p>','' | replace:'</p>','' | strip_newlines}}";
+      new Typewriter('.sidebar-sticky .sidebar-about p', {
+        strings: [sidebarDescription],
+        autoStart: true,
+        loop: true,
+      });
+    })
+  </script>
+{% endif %}
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
 {% if site.kramdown.math_engine == 'mathjax' %}
 <script async src="{{ 'assets/bower_components/MathJax/es5/tex-mml-chtml.js' | relative_url }}" id="_MathJax"></script>
