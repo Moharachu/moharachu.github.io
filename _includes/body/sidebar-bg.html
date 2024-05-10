@@ -3,7 +3,8 @@
 {% assign theme_color = include.theme_color %}
 
 {% if image.background %}
-  {% capture bg_style %}background:{{ image.background }}{% endcapture %}
+  {% capture bg_color %}{{ image.color }}{% endcapture %}
+  {% capture bg_style %}background-color:{{ bg_color }};background-image:{{ image.background }}{% endcapture %}
   {% capture bg_class %}sidebar-bg {% if image.overlay %}sidebar-overlay{% endif %}{% endcapture %}
 {% else %}
   {% assign bg_color = theme_color | default:site.theme_color | default:color %}
