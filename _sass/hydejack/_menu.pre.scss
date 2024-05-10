@@ -129,6 +129,11 @@ a.nav-btn, button.nav-btn {
 .animation-main {
   opacity: 0;
   pointer-events: none;
+
+  .content .page .page-title {
+    color:#5abf83;
+    text-transform: uppercase;
+  }
 }
 
 #_navbar {
