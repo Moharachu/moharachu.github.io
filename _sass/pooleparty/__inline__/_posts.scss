@@ -38,6 +38,11 @@
   .aspect-ratio.sixteen-nine.lead {
     @extend .border-radius;
   }
+
+  > h4 {
+    color:#5abf83;
+    text-transform: uppercase;
+  }
 }
 
 body:not(.no-third-column) {
