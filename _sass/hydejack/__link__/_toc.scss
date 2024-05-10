@@ -42,6 +42,14 @@ body:not(.no-toc) #markdown-toc {
     &.toc-show {
       opacity: 1;
       transform: translateX(0);
+
+      a[style*="font-weight: bold"] {
+        color: rgb(90, 191, 131);
+      }
+
+      a {
+        text-transform: uppercase;
+      }
     }
 
     &.affix {

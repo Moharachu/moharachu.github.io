@@ -7,7 +7,7 @@ tags: unreal perfomance
 
 ## Unreal Engine Perfomance Optimization Techniques
 
-### Intro
+#### Intro
 
 A lot of people doing same mistakes, when developing games on Unreal Engine especially with optimization, so i decided to gather the information, what i'll have with my experience while working on projects and share it with you.
 
@@ -15,9 +15,9 @@ First, it's really good to understand what is the `ms` before we going deep at t
 
 Next it's good to know what is
 
-## Preparation
+#### Preparation
 
-## First Steps
+#### First Steps
 
 After we done with checklist, we can start understanding where is bottleneck: `CPU`, `GPU`, `Memory`
 
@@ -36,7 +36,7 @@ After we done with checklist, we can start understanding where is bottleneck: `C
 |                         `capacity()`                         | Returns the size of the storage space currently allocated for the heap. |
 |                          `empty()`                           | Returns true if heap is empty (i.e. its size is `0`). |
 
-## Unreal Insights
+#### Unreal Insights
 
 ```c++
 FZenPackageResourceManager(const TCHAR* ManifestPath) : CompletionEvents(512)
